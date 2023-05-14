@@ -1,0 +1,85 @@
+body {
+background-color: rgb(211,61,227,0.3);
+;
+}
+p {
+font-size: 50px;
+margin-bottom:50px ;
+margin-top:50px ;
+}
+ul {
+border: 2px solid rgb(0, 0, 0);
+border-radius: 10px;
+display: flex;
+justify-content: space-between;
+margin: 2px;
+padding: 0;
+list-style: none;
+background-color: white;
+margin-bottom:50px ;
+margin-top:0 ;
+}
+
+div {
+padding: 0;
+display: flex;
+justify-content: center;
+border-radius: 10px;
+flex-direction: column;
+align-items: center;
+}
+
+li {
+width: 50px;
+height: 50px;
+display: flex;
+margin: 10px;
+border-radius: 10px;
+border: 2px solid rgb(0, 0, 0);
+}
+
+.background {
+height: 20rem;
+width: 60%;
+background-color: rgb(211,61,227);
+display: flex;
+justify-self: center;
+border-radius: 10px;
+transition: 300ms;
+border: 2px solid rgb(0, 0, 0);
+}
+
+[data-type="255,137,143"] {
+opacity: 40%;
+background-color: rgb(255,137,143);
+}
+
+[data-type="211,61,227"] {
+background-color: rgb(211,61,227);
+opacity: 40%;
+}
+
+[data-type="128,80,250"] {
+opacity: 40%;
+background-color: rgb(128,80,250);
+}
+
+[data-type="61,115,227"] {
+opacity: 40%;
+background-color: rgb(61,115,227);
+}
+
+[data-type="68,236,251"] {
+opacity: 40%;
+background-color: rgb(68,236,251);
+}
+
+[data-type]:hover{
+opacity: 100%;
+transition:300ms ;
+cursor: pointer;
+}
+
+.active{
+opacity: 100%;
+}
